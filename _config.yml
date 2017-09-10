@@ -1,0 +1,8 @@
+title: Tarmath's Blog
+description: something about nothing and everything
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-hacker
+
+gems:
+  - jekyll-mentions
