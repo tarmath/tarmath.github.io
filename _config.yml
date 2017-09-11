@@ -1,8 +1,60 @@
-title: mpi
-description: random thoughts
-google_analytics: UA-106131866-1
-show_downloads: false
-theme: jekyll-theme-hacker
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-gems:
-  - jekyll-mentions
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+name: Mathieu Pichette
+title: mpi
+url: "http://tarmath.github.io"
+baseurl: ""
+description: "I have no idea what I'm doing :)"
+google_analytics: UA-106131866-1
+
+github_username: tarmath
+facebook_username: tarmath
+twitter_username: tarmath
+#google_plus_username: 101141348880633675831
+linkedin_username: mathieu-pichette
+instagram_username: tarmath
+blog_url: "/blog"
+email: tarmath@gmail.com 
+#public_key_url: "https://raw.pastebin.com/LINK-TO-PUBLIC-KEY"
+
+avatar: yes
+avatar_img_path: "https://avatars2.githubusercontent.com/u/107975"
+
+front_img: yes
+front_img_path: "imgs/background.jpg"
+#front_img_path: "https://external.url/image.jpg"
+
+favicon_img: yes
+favicon_img_path: "imgs/favicon.ico"
+#favicon_img_path: "https://external.url/favicon.ico"
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
